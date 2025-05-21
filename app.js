@@ -70,9 +70,7 @@ TIPOS DE DATOS primitivos (los más básicos)
     - cadena (unión) de CARACTERES.
     - sirve para armar mensajes
 */
-let nombre = `Pedro` // ej. String
-let edad = 20
-let curso = 'PHP'               // ej. int
+               // ej. int
 // let precio = 4000.50        // ej. float
 // let esEstudiante = true     // ej. boolean
 
@@ -81,9 +79,7 @@ let curso = 'PHP'               // ej. int
 "Hola "+nombre+", tenes "+edad+" años y sos parte del curso de "+curso
 ) */
 // forma actual - plantillas literales - usar 1 solo string e insertarle variables donde las necesitamos.
-console.log(
-`Hola ${nombre}, tenes ${edad} años y sos parte del curso de ${curso}`
-)
+
 
 // Hola (nombre) tenes (edad) años y sos parte del curso de (curso)
 
@@ -134,3 +130,13 @@ console.log(numero1 == numero2)
 
 console.log(numero1 === numero2)
 // ¿che, 50 y "50" son ESTRICTAMENTE iguales?
+
+// ViewPort
+// alert("Esta ventana solo se puede confirmar")
+// confirm("Se puede elegir entre aceptar y cancelar")
+
+
+let nombre = prompt("Ingrese tu nombre")
+alert(`Tu nombre es ${nombre}`)
+
+
